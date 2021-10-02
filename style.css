@@ -25,8 +25,8 @@ body {
 }
 
 #profile {
-    width: 180px;
-    height: 180px;
+    width: 140px;
+    height: 140px;
     object-fit: cover;
     border-radius: 50%;
     border: 6px solid sienna;
@@ -80,4 +80,32 @@ body {
     margin: 50px 0 20px 0;
     font-family: "Lato", "sans-serif;";
     font-weight: bold;
+}
+
+@media screen and (max-width: 780px) {
+    #profile {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 6px solid sienna;
+        padding: 2px;
+        margin-bottom: 15px;
+    }
+    .profile-container h1 {
+        margin-top: 25px 0;
+        font-size: 18px;
+    }
+    .profile-container span {
+        margin-top: 14px;
+        font-size: 14px;
+        font-family: "Barlow", "sans-serif;";
+        letter-spacing: 2.4px;
+    }
+    .porto {
+        margin-top: 70px;
+        width: 300px;
+        height: 150px;
+        border-radius: 25px;
+    }
 }
